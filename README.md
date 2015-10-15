@@ -7,7 +7,7 @@ public class ThreadB {
 
    public static void main (String [] args)
 	    {
-	   //AT-threads request for company B
+	   //BT-threads request for company B
 	   CompBThread BT = new CompBThread ();
 	   BT.start ();
 	      for (int t = 0; t < 50; t++)
